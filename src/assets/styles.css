@@ -10,6 +10,18 @@
   width: 100%;
   
 }
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  font-family: "Jost", sans-serif;
+  -webkit-tap-highlight-color: transparent;
+}
+
 .exercise-bg {
   width: 100%;
   min-height: 100vh;
@@ -20,7 +32,7 @@
   justify-content: center;
 }
 .exercise-bg.exercise-inicial-5 {
-  background-image: url(https://arcavirtual.net/assets/images/background/bg-inicial-5.png);
+  background-image: url(https://png.pngtree.com/thumb_back/fw800/back_pic/00/04/62/325624a61782e94.jpg);
 }
 .relative {
   position: relative;
@@ -46,7 +58,7 @@
   position: absolute;
 }
 .quiz-container.Ini5MateForma3 .responsive-image_cantidad_044{
-  margin-left: -11%;
+  margin-left: -6%;
   height: 113%;
   margin-top: -3.8%;
   margin-bottom: -19%;
@@ -138,8 +150,8 @@
 
 .Ini5MateForma3 .main__5forma__3 .barra__right {
   top: 18%;
-  right: -4%;
-  left: 82%;
+  right: -1.5%;
+  left: 79%;
   bottom: -14%;
 }
 
