@@ -11,14 +11,12 @@ interface IProps {
 
 export const ContainerDnD: React.FC<IProps> = (props) => {
   return (
-    
     <div
       id={props.id}
       className={props.className}
       onDrop={props.drop}
       onDragOver={props.dragOver}
     >
-     
       {props.text ? <div className="title">{props.id}</div> : null}
 
       {props.children}

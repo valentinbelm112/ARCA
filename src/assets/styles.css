@@ -65,19 +65,7 @@
   justify-content: center;
   padding: 10px;
 }
-.quiz-container.Ini5MateForma3 .imagen-principal {
-  grid-column: 1/2;
-  gap: 10px;
-  align-content: center;
-  /* border: 3px solid #cfcfcf; */
-  border-radius: 10px;
-  width: 60%;
-  min-height: 300px;
-}
-.quiz-container.Ini5MateForma3 .imagen-principal img {
-  width: auto;
-  height: 100%;
-}
+
 
 .quiz-container.Ini5MateForma3 .options-container .title {
   position: relative;

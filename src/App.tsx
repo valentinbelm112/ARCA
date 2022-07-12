@@ -5,7 +5,7 @@ import { ContainerDnD } from "./components/ContainerDnD";
 import "./assets/styles.css";
 import $ from "jquery";
 import Swal from "sweetalert2";
-import imgCorrect from "./assets/images/resuelto.png";
+
 import chupetin1 from "./assets/images/chupetin1.png";
 import chupetin2 from "./assets/images/chupetin2.png";
 import chupetin3 from "./assets/images/chupetin3.png";
@@ -13,9 +13,8 @@ import chupetin4 from "./assets/images/chupetin4.png";
 import chupetin5 from "./assets/images/chupetin5.png";
 import barra from "./assets/images/barra.png";
 import fondo from "./assets/images/fondo.png";
+
 export default function App() {
-  const itemQuantity = 3;
-  const [correctAnswer, setCorrectAnswer] = useState(false);
   const [click, setClick] = useState(false);
   const [checkCircul1, setCheckCircul1] = useState(false);
   const [checkCircul2, setCheckCircul2] = useState(false);
@@ -120,29 +119,7 @@ export default function App() {
     }
 
     setPuntuacion(puntuacion);
-    if (puntuacion === 20) {
-      Swal.fire({
-        position: "center",
-        icon: "success",
-        showConfirmButton: false,
-        imageUrl: "https://c.tenor.com/Tj_srTGbMIsAAAAC/well-done-good-job.gif",
-        imageWidth: 400,
-        imageHeight: 400,
-        timer: 10000,
-        showClass: {
-          popup: "animate__animated animate__fadeInDown",
-        },
-        hideClass: {
-          popup: "animate__animated animate__fadeOutUp",
-        },
-        backdrop: `
-            rgba(0,0,123,0.4)
-            url("https://c.tenor.com/imNcmwgrFX8AAAAi/bravo-great-job.gif")
-             top 
-            no-repeat
-          `,
-      });
-    }
+
     setActive(false);
     arrayFigures.splice(0, arrayFigures.length);
     console.log(arrayFigures);
