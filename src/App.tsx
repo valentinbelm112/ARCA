@@ -246,6 +246,10 @@ export default function App() {
 
   return (
     <div className="exercise-bg exercise-inicial-5">
+      <div className="title-box">
+        <img className="principal-title" src="https://meet.arcavirtual.net/images/assets/exercise-title-5.png" alt=""/>
+          <h5>¡Es Navidad!</h5>
+          </div>
       <div className="quiz-container Ini5MateForma3">
         <div className="main__5forma__3">
           <div className="row">
