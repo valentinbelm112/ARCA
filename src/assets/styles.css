@@ -10,6 +10,18 @@
   width: 100%;
   
 }
+.exercise-bg {
+  width: 100%;
+  min-height: 100vh;
+  height: auto;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.exercise-bg.exercise-inicial-5 {
+  background-image: url(https://arcavirtual.net/assets/images/background/bg-inicial-5.png);
+}
 .relative {
   position: relative;
 }
@@ -34,11 +46,11 @@
   position: absolute;
 }
 .quiz-container.Ini5MateForma3 .responsive-image_cantidad_044{
-  margin-left:-24%;
-  height:113% ;
+  margin-left: -11%;
+  height: 113%;
   margin-top: -3.8%;
   margin-bottom: -19%;
-  width: 112%;
+  width: 113%;
   padding: 4%;
 }
 .quiz-container.Ini5MateForma3 .drag-and-drop-container {
@@ -125,10 +137,10 @@
 }
 
 .Ini5MateForma3 .main__5forma__3 .barra__right {
-    top: 18%;
-    right: -17%;
-    left: 93%;
-    bottom: -14%;
+  top: 18%;
+  right: -4%;
+  left: 82%;
+  bottom: -14%;
 }
 
 /* left */
@@ -381,14 +393,15 @@
 
 .Ini5MateForma3 .main__5forma__3 .container__drop#item12 {
   top: 2%;
-  left: -14%;
-  right: 107.3%;
-  bottom: 87.5%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color:#c02425 ;
-  border-radius: 2rem;
+    left: 1%;
+    right: 90.3%;
+    bottom: 82.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #c02425;
+    border-radius: 2rem;
+   
 
 }
 
