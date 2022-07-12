@@ -572,17 +572,48 @@
   .Ini5MateForma3 .main__5forma__3 {
     width: 70%;
   }
+  .Ini5MateForma3 .main__5forma__3 .container__drop#item11 {
+   
+    font-size: 0.2em;
+}
+.Ini5MateForma3 .main__5forma__3 .container__drop#item13 {
+  font-size: 0.3em;
+}
+.Ini5MateForma3 .main__5forma__3 .container__drop#item12 .puntuacion-titulo  {
+  font-size:  0.6em;
+}
 }
 
 @media screen and (min-width: 640px) {
   .Ini5MateForma3 .main__5forma__3 {
     width: 70%;
   }
+  .Ini5MateForma3 .main__5forma__3 .container__drop#item11 {
+   
+    font-size: 0.5em;
+}
+.Ini5MateForma3 .main__5forma__3 .container__drop#item13 {
+  font-size: 0.6em;
+}
+
+.Ini5MateForma3 .main__5forma__3 .container__drop#item12 .puntuacion-titulo  {
+  font-size:  0.9em;
+}
 }
 @media screen and (min-width: 768px) {
   .Ini5MateForma3 .main__5forma__3 {
     width: 70%;
   }
+  .Ini5MateForma3 .main__5forma__3 .container__drop#item11 {
+   
+    font-size: 0.7em;
+}
+.Ini5MateForma3 .main__5forma__3 .container__drop#item13 {
+  font-size: 0.8em;
+}
+.Ini5MateForma3 .main__5forma__3 .container__drop#item12 .puntuacion-titulo  {
+  font-size: 2em;
+}
 }
 @media screen and (min-width: 1024px) {
   .Ini5MateForma3 .main__5forma__3 {
