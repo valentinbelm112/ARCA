@@ -125,10 +125,10 @@
 }
 
 .Ini5MateForma3 .main__5forma__3 .barra__right {
-  top: 5%;
-  right: -17%;
-  left: 93%;
-  bottom: 5%;
+    top: 18%;
+    right: -17%;
+    left: 93%;
+    bottom: -14%;
 }
 
 /* left */
@@ -442,6 +442,7 @@
     border: none;
     background-color: #3d348b;
     box-shadow: 0 5px #2c0b8e;
+    margin-top: 30%;
 }
 
 
@@ -462,7 +463,7 @@
   border: none;
   background-color: #ef233c;
   box-shadow: 0 5px #d90429;
-  margin-top: 15%;
+  margin-top: 30%;
 }
 
 .Ini5MateForma3 .main__5forma__3 .container__drop .image__drop .dnd-box img {
