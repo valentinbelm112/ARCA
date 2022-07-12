@@ -33,7 +33,7 @@
   justify-content: center;
 }
 .exercise-bg.exercise-inicial-5 {
-  background-image: url(https://png.pngtree.com/thumb_back/fw800/back_pic/00/04/62/325624a61782e94.jpg);
+  background-image: url(https://arcarecursos.net/ejercicios/asset/fondo_interactivo.jpg);
 }
 .relative {
   position: relative;
@@ -65,6 +65,7 @@
   margin-bottom: -19%;
   width: 113%;
   padding: 4%;
+  filter: drop-shadow(-2px 55px 68px rgba(0, 0, 0, 0.7));
 }
 .quiz-container.Ini5MateForma3 .drag-and-drop-container {
   grid-column: 1/2;
@@ -236,6 +237,9 @@
     /* background-position: -10px -43px; */
     background-size: contain;
 }
+
+
+
 
 .Ini5MateForma3 .main__5forma__3 .container__drop#item6f {
   top: 102.6%;
