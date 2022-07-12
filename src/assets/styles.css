@@ -403,16 +403,15 @@
 
 
 .Ini5MateForma3 .main__5forma__3 .container__drop#item12 {
-  top: 2%;
-    left: 1%;
-    right: 90.3%;
-    bottom: 82.5%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #c02425;
-    border-radius: 2rem;
-   
+  top: 5%;
+  left: 1%;
+  right: 93.3%;
+  bottom: 82.5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #c02425;
+  border-radius: 2rem;
 
 }
 
@@ -466,7 +465,7 @@
     border: none;
     background-color: #3d348b;
     box-shadow: 0 5px #2c0b8e;
-    margin-top: 30%;
+    margin-top: 50%;
 }
 
 
@@ -487,7 +486,7 @@
   border: none;
   background-color: #ef233c;
   box-shadow: 0 5px #d90429;
-  margin-top: 30%;
+  margin-top: 50%;
 }
 
 .Ini5MateForma3 .main__5forma__3 .container__drop .image__drop .dnd-box img {
@@ -582,6 +581,13 @@
 .Ini5MateForma3 .main__5forma__3 .container__drop#item12 .puntuacion-titulo  {
   font-size:  0.6em;
 }
+.css-button {
+
+  height: 25px;
+  /* width: 16px; */
+  margin-top: 50%;
+  
+}
 }
 
 @media screen and (min-width: 640px) {
@@ -598,6 +604,11 @@
 
 .Ini5MateForma3 .main__5forma__3 .container__drop#item12 .puntuacion-titulo  {
   font-size:  0.9em;
+}
+.css-button {
+
+  height: 35px;
+  
 }
 }
 @media screen and (min-width: 768px) {

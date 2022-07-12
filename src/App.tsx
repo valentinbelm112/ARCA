@@ -216,7 +216,7 @@ export default function App() {
   };
   useEffect(() => {
     if (reloj === 0) {
-      // window.location.reload();
+      window.location.reload();
     }
     const timer = click
       ? setTimeout(() => {}, 1000)
