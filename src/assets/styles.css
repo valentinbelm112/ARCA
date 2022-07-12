@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
 .quiz-container.Ini5MateForma3 {
   padding-bottom: 20px;
   position: relative;
@@ -431,7 +432,15 @@
 .Ini5MateForma3 .main__5forma__3 .container__drop#item11 .puntuacion-titulo{
 
     font-size: 130%;
+    font-family: 'Dancing Script', cursive;
   
+}
+
+.Ini5MateForma3 .main__5forma__3 .container__drop#item13 .puntuacion-titulo{
+
+  font-size: 130%;
+  font-family: 'Dancing Script', cursive;
+
 }
 
 
@@ -588,6 +597,14 @@
   margin-top: 50%;
   
 }
+
+.css-button2 {
+
+  height: 25px;
+  /* width: 16px; */
+  margin-top: 50%;
+  
+}
 }
 
 @media screen and (min-width: 640px) {
@@ -606,6 +623,12 @@
   font-size:  0.9em;
 }
 .css-button {
+
+  height: 35px;
+  
+}
+
+.css-button2 {
 
   height: 35px;
   
@@ -630,6 +653,13 @@
   .Ini5MateForma3 .main__5forma__3 {
     width: 67%;
   }
+
+  .Ini5MateForma3 .main__5forma__3 .container__drop#item13 {
+    font-size: 1.3em;
+}
+.Ini5MateForma3 .main__5forma__3 .container__drop#item11  {
+  font-size: 1em;
+}
 }
 @media screen and (min-width: 1280px) {
   .Ini5MateForma3 .main__5forma__3 {

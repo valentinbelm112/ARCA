@@ -4,8 +4,6 @@ import { BoxDnD } from "./components/BoxDnD";
 import { ContainerDnD } from "./components/ContainerDnD";
 import "./assets/styles.css";
 import $ from "jquery";
-import Swal from "sweetalert2";
-
 import chupetin1 from "./assets/images/chupetin1.png";
 import chupetin2 from "./assets/images/chupetin2.png";
 import chupetin3 from "./assets/images/chupetin3.png";
